@@ -1,0 +1,61 @@
+INT_T
+VARIABLE 	 main
+'('
+STR_T
+VARIABLE 	 argv
+'['
+']'
+')'
+'{'
+INT_T
+VARIABLE 	 a
+'['
+INT_LIT  	 10
+']'
+VAL_ASSIGN
+'{'
+INT_LIT  	 10
+','
+INT_LIT  	 21
+','
+INT_LIT  	 30
+','
+INT_LIT  	 41
+','
+INT_LIT  	 50
+'}'
+';'
+FOR
+'('
+VARIABLE 	 auto
+VARIABLE 	 i
+':'
+VARIABLE 	 a
+')'
+'{'
+COUT
+SHL
+VARIABLE 	 i
+SHL
+VARIABLE 	 endl
+';'
+IF
+'('
+VARIABLE 	 i
+MOD
+INT_LIT  	 2
+EQL
+INT_LIT  	 0
+')'
+'{'
+COUT
+SHL
+STRING_LIT 	 "Even"
+SHL
+VARIABLE 	 endl
+';'
+'}'
+'}'
+'}'
+
+Total line: 11

@@ -1,0 +1,154 @@
+INT_T
+VARIABLE 	 main
+'('
+STR_T
+VARIABLE 	 argv
+'['
+']'
+')'
+'{'
+COUT
+SHL
+'('
+INT_LIT  	 3
+SUB
+INT_LIT  	 4
+MUL
+'('
+INT_LIT  	 5
+ADD
+SUB
+INT_LIT  	 8
+')'
+SUB
+INT_LIT  	 10
+DIV
+INT_LIT  	 7
+')'
+SHL
+VARIABLE 	 endl
+';'
+COUT
+SHL
+'('
+INT_LIT  	 3
+SUB
+INT_LIT  	 4
+MUL
+'('
+INT_LIT  	 5
+ADD
+SUB
+INT_LIT  	 8
+')'
+SUB
+INT_LIT  	 10
+DIV
+INT_LIT  	 7
+LES
+SUB
+INT_LIT  	 4
+MOD
+INT_LIT  	 3
+LOR
+NOT
+BOOL_LIT 	 true
+LAN
+NOT
+NOT
+BOOL_LIT 	 false
+')'
+SHL
+VARIABLE 	 endl
+';'
+COUT
+SHL
+'('
+FLOAT_LIT 	 3.0
+SUB
+FLOAT_LIT 	 4.0
+MUL
+'('
+FLOAT_LIT 	 5.0
+ADD
+SUB
+FLOAT_LIT 	 8.0
+')'
+SUB
+FLOAT_LIT 	 10.0
+DIV
+FLOAT_LIT 	 7.0
+')'
+SHL
+VARIABLE 	 endl
+';'
+COUT
+SHL
+FLOAT_LIT 	 3.0
+SUB
+FLOAT_LIT 	 4.0
+MUL
+'('
+FLOAT_LIT 	 5.0
+ADD
+SUB
+FLOAT_LIT 	 8.0
+')'
+SUB
+FLOAT_LIT 	 10.0
+DIV
+FLOAT_LIT 	 7.0
+LES
+SUB
+FLOAT_LIT 	 4.0
+LOR
+NOT
+BOOL_LIT 	 true
+LAN
+NOT
+NOT
+BOOL_LIT 	 false
+SHL
+VARIABLE 	 endl
+';'
+COUT
+SHL
+INT_LIT  	 1000000
+ADD
+INT_LIT  	 9
+MUL
+INT_LIT  	 1
+SUB
+INT_LIT  	 1
+ADD
+INT_LIT  	 2024
+ADD
+'('
+SUB
+INT_LIT  	 398
+')'
+ADD
+'('
+INT_LIT  	 88
+MOD
+INT_LIT  	 2
+NEQ
+INT_LIT  	 0
+')'
+ADD
+'('
+INT_LIT  	 8888889
+MOD
+INT_LIT  	 2
+NEQ
+INT_LIT  	 0
+')'
+SHL
+VARIABLE 	 endl
+';'
+RETURN
+INT_LIT  	 0
+';'
+'}'
+
+Total line: 10

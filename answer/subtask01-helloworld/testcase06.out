@@ -1,0 +1,29 @@
+INT_T
+VARIABLE 	 main
+'('
+STR_T
+VARIABLE 	 argv
+'['
+']'
+')'
+'{'
+COUT
+SHL
+STRING_LIT 	 "Hell"
+SHL
+CHAR_LIT 	 'o'
+SHL
+STRING_LIT 	 " w"
+SHL
+STRING_LIT 	 "o"
+SHL
+STRING_LIT 	 "rld"
+SHL
+VARIABLE 	 endl
+';'
+RETURN
+INT_LIT  	 0
+';'
+'}'
+
+Total line: 4

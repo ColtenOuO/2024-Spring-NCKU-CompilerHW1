@@ -1,0 +1,86 @@
+BOOL_T
+VARIABLE 	 check
+'('
+INT_T
+VARIABLE 	 a
+','
+INT_T
+VARIABLE 	 b
+','
+STR_T
+VARIABLE 	 s
+','
+BOOL_T
+VARIABLE 	 c
+')'
+'{'
+COUT
+SHL
+VARIABLE 	 s
+SHL
+VARIABLE 	 endl
+';'
+COUT
+SHL
+VARIABLE 	 a
+SHL
+STRING_LIT 	 " "
+SHL
+VARIABLE 	 b
+SHL
+STRING_LIT 	 " "
+SHL
+VARIABLE 	 s
+SHL
+VARIABLE 	 endl
+';'
+RETURN
+'('
+VARIABLE 	 c
+EQL
+BOOL_LIT 	 true
+')'
+';'
+'}'
+INT_T
+VARIABLE 	 main
+'('
+STR_T
+VARIABLE 	 argv
+'['
+']'
+')'
+'{'
+BOOL_T
+VARIABLE 	 result
+VAL_ASSIGN
+VARIABLE 	 check
+'('
+INT_LIT  	 1
+','
+INT_LIT  	 2
+','
+STRING_LIT 	 "apple"
+','
+BOOL_LIT 	 true
+')'
+';'
+INT_T
+VARIABLE 	 num
+VAL_ASSIGN
+VARIABLE 	 result
+ADD
+INT_LIT  	 7
+';'
+COUT
+SHL
+VARIABLE 	 num
+SHL
+VARIABLE 	 endl
+';'
+RETURN
+INT_LIT  	 0
+';'
+'}'
+
+Total line: 12

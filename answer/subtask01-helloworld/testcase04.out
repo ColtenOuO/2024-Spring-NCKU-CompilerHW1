@@ -1,0 +1,23 @@
+INT_T
+VARIABLE 	 main
+'('
+STR_T
+VARIABLE 	 argv
+'['
+']'
+')'
+'{'
+COUT
+SHL
+STRING_LIT 	 "Hello "
+SHL
+STRING_LIT 	 "World"
+SHL
+VARIABLE 	 endl
+';'
+RETURN
+INT_LIT  	 0
+';'
+'}'
+
+Total line: 4

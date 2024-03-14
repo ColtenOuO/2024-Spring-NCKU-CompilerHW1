@@ -1,0 +1,261 @@
+INT_T
+VARIABLE 	 mod
+'('
+INT_T
+VARIABLE 	 num
+','
+INT_T
+VARIABLE 	 mod
+')'
+'{'
+IF
+'('
+VARIABLE 	 num
+GTR
+INT_LIT  	 0
+')'
+RETURN
+'('
+VARIABLE 	 num
+ADD
+'('
+VARIABLE 	 num
+MUL
+SUB
+INT_LIT  	 1
+DIV
+VARIABLE 	 mod
+ADD
+INT_LIT  	 1
+')'
+MUL
+VARIABLE 	 mod
+')'
+';'
+COMMENT  	 // cool!
+RETURN
+VARIABLE 	 num
+MOD
+VARIABLE 	 mod
+';'
+'}'
+VOID_T
+VARIABLE 	 nothing_function
+'('
+STR_T
+VARIABLE 	 s
+')'
+'{'
+COUT
+SHL
+VARIABLE 	 s
+SHL
+VARIABLE 	 endl
+';'
+COUT
+SHL
+VARIABLE 	 mod
+'('
+INT_LIT  	 10000000007
+','
+INT_LIT  	 99824353
+')'
+SHL
+VARIABLE 	 endl
+';'
+COMMENT  	 // very big number!
+COUT
+SHL
+VARIABLE 	 mod
+'('
+SUB
+INT_LIT  	 10
+','
+INT_LIT  	 2
+')'
+SHL
+VARIABLE 	 endl
+';'
+RETURN
+';'
+'}'
+INT_T
+VARIABLE 	 main
+'('
+STR_T
+VARIABLE 	 argv
+'['
+']'
+')'
+'{'
+VARIABLE 	 nothing_function
+'('
+STRING_LIT 	 "Hello world"
+')'
+';'
+COMMENT  	 // comment
+MULTI_COMMENT 	 /*
+multi comment
+    Tab \t
+    Space
+* star *
+*/
+MULTI_COMMENT 	 /**
+ * Cool multi comment
+ */
+MULTI_COMMENT 	 /*Flowing multi comment*/
+COMMENT  	 //Flowing comment
+INT_T
+VARIABLE 	 apple
+VAL_ASSIGN
+INT_LIT  	 99824353
+';'
+VARIABLE 	 nothing_function
+'('
+STRING_LIT 	 "apple!"
+')'
+';'
+IF
+'('
+VARIABLE 	 mod
+'('
+VARIABLE 	 apple
+','
+INT_LIT  	 2
+')'
+MOD
+INT_LIT  	 2
+EQL
+INT_LIT  	 1
+')'
+'{'
+IF
+'('
+VARIABLE 	 apple
+EQL
+INT_LIT  	 998244353
+')'
+'{'
+FOR
+'('
+INT_T
+VARIABLE 	 i
+VAL_ASSIGN
+INT_LIT  	 0
+';'
+VARIABLE 	 i
+GTR
+INT_LIT  	 10
+';'
+VARIABLE 	 i
+ADD_ASSIGN
+INT_LIT  	 1
+')'
+'{'
+MULTI_COMMENT 	 /* for loop */
+INT_T
+VARIABLE 	 q
+VAL_ASSIGN
+INT_LIT  	 10
+';'
+WHILE
+'('
+VARIABLE 	 q
+NEQ
+INT_LIT  	 0
+')'
+MULTI_COMMENT 	 /* while loop */
+'{'
+VARIABLE 	 q
+SUB_ASSIGN
+INT_LIT  	 1
+';'
+COUT
+SHL
+STRING_LIT 	 "OK!"
+SHL
+VARIABLE 	 endl
+';'
+'}'
+'}'
+FOR
+'('
+INT_T
+VARIABLE 	 i
+VAL_ASSIGN
+INT_LIT  	 0
+';'
+VARIABLE 	 i
+GTR
+INT_LIT  	 20
+';'
+VARIABLE 	 i
+ADD_ASSIGN
+INT_LIT  	 2
+')'
+'{'
+INT_T
+VARIABLE 	 q
+VAL_ASSIGN
+VARIABLE 	 mod
+'('
+VARIABLE 	 apple
+','
+INT_LIT  	 2
+')'
+';'
+WHILE
+'('
+VARIABLE 	 q
+LES
+INT_LIT  	 0
+')'
+'{'
+VARIABLE 	 q
+SUB_ASSIGN
+INT_LIT  	 1
+';'
+COUT
+SHL
+STRING_LIT 	 "OK!"
+SHL
+VARIABLE 	 endl
+';'
+'}'
+'}'
+'}'
+ELSE
+'{'
+VARIABLE 	 nothing_function
+'('
+STRING_LIT 	 "something wrong"
+')'
+';'
+'}'
+'}'
+COUT
+SHL
+VARIABLE 	 mod
+'('
+VARIABLE 	 apple
+','
+INT_LIT  	 2
+')'
+SHL
+VARIABLE 	 endl
+';'
+'}'
+COMMENT  	 // comment
+MULTI_COMMENT 	 /*
+multi comment
+    Tab \t
+    Space
+* star *
+*/
+MULTI_COMMENT 	 /**
+ * Cool multi comment
+ */
+MULTI_COMMENT 	 /*Flowing multi comment*/
+COMMENT  	 //Flowing comment
+
+Total line: 61

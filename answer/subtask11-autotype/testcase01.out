@@ -1,0 +1,32 @@
+INT_T
+VARIABLE 	 main
+'('
+STR_T
+VARIABLE 	 argv
+'['
+']'
+')'
+'{'
+VARIABLE 	 auto
+VARIABLE 	 x
+VAL_ASSIGN
+FLOAT_LIT 	 6.0
+';'
+VARIABLE 	 auto
+VARIABLE 	 y
+VAL_ASSIGN
+BOOL_LIT 	 true
+';'
+COUT
+SHL
+VARIABLE 	 x
+SHL
+STRING_LIT 	 " "
+SHL
+VARIABLE 	 y
+SHL
+VARIABLE 	 endl
+';'
+'}'
+
+Total line: 6

@@ -1,0 +1,67 @@
+INT_T
+VARIABLE 	 main
+'('
+STR_T
+VARIABLE 	 argv
+'['
+']'
+')'
+'{'
+INT_T
+VARIABLE 	 a
+'['
+INT_LIT  	 5
+']'
+VAL_ASSIGN
+'{'
+INT_LIT  	 10
+','
+INT_LIT  	 20
+','
+INT_LIT  	 30
+','
+INT_LIT  	 40
+','
+INT_LIT  	 50
+'}'
+';'
+COUT
+SHL
+VARIABLE 	 a
+'['
+INT_LIT  	 0
+']'
+SHL
+STRING_LIT 	 " "
+SHL
+VARIABLE 	 a
+'['
+INT_LIT  	 1
+']'
+SHL
+STRING_LIT 	 " "
+SHL
+VARIABLE 	 a
+'['
+INT_LIT  	 2
+']'
+SHL
+STRING_LIT 	 " "
+SHL
+VARIABLE 	 a
+'['
+INT_LIT  	 3
+']'
+SHL
+STRING_LIT 	 " "
+SHL
+VARIABLE 	 a
+'['
+INT_LIT  	 4
+']'
+SHL
+VARIABLE 	 endl
+';'
+'}'
+
+Total line: 4

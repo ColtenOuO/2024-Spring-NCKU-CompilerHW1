@@ -1,0 +1,174 @@
+INT_T
+VARIABLE 	 main
+'('
+STR_T
+VARIABLE 	 argv
+'['
+']'
+')'
+'{'
+INT_T
+VARIABLE 	 a
+VAL_ASSIGN
+INT_LIT  	 0
+','
+VARIABLE 	 b
+VAL_ASSIGN
+INT_LIT  	 0
+','
+VARIABLE 	 c
+VAL_ASSIGN
+INT_LIT  	 10
+';'
+IF
+'('
+VARIABLE 	 a
+EQL
+INT_LIT  	 0
+LAN
+VARIABLE 	 b
+EQL
+INT_LIT  	 0
+')'
+'{'
+COUT
+SHL
+VARIABLE 	 a
+SHL
+VARIABLE 	 b
+SHL
+VARIABLE 	 c
+SHL
+VARIABLE 	 endl
+';'
+'}'
+IF
+'('
+VARIABLE 	 c
+SUB
+VARIABLE 	 b
+GEQ
+INT_LIT  	 0
+')'
+'{'
+COUT
+SHL
+STRING_LIT 	 "OK!"
+SHL
+VARIABLE 	 endl
+';'
+'}'
+IF
+'('
+'('
+VARIABLE 	 a
+EQL
+INT_LIT  	 0
+LAN
+VARIABLE 	 b
+NEQ
+INT_LIT  	 0
+')'
+LOR
+VARIABLE 	 c
+EQL
+INT_LIT  	 10
+')'
+'{'
+COUT
+SHL
+STRING_LIT 	 "test1"
+SHL
+VARIABLE 	 endl
+';'
+'}'
+ELSE
+'{'
+IF
+'('
+'('
+VARIABLE 	 c
+EQL
+INT_LIT  	 10
+LOR
+VARIABLE 	 a
+NEQ
+INT_LIT  	 0
+')'
+LAN
+'('
+'('
+VARIABLE 	 a
+EQL
+INT_LIT  	 0
+LAN
+VARIABLE 	 b
+EQL
+INT_LIT  	 0
+LAN
+VARIABLE 	 c
+EQL
+INT_LIT  	 0
+LAN
+'('
+VARIABLE 	 c
+EQL
+INT_LIT  	 10
+LOR
+'('
+VARIABLE 	 a
+')'
+EQL
+INT_LIT  	 0
+')'
+')'
+')'
+')'
+'{'
+COUT
+SHL
+STRING_LIT 	 "test2"
+SHL
+VARIABLE 	 endl
+';'
+'}'
+ELSE
+'{'
+COUT
+SHL
+STRING_LIT 	 "test3"
+SHL
+VARIABLE 	 endl
+';'
+IF
+'('
+BOOL_LIT 	 true
+')'
+'{'
+COUT
+SHL
+STRING_LIT 	 "test4"
+SHL
+VARIABLE 	 endl
+';'
+'}'
+'}'
+'}'
+IF
+'('
+BOOL_LIT 	 true
+')'
+'{'
+COUT
+SHL
+STRING_LIT 	 "test6"
+SHL
+VARIABLE 	 endl
+';'
+'}'
+RETURN
+INT_LIT  	 0
+';'
+'}'
+
+Total line: 31

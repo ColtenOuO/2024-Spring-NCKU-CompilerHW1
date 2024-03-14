@@ -1,0 +1,118 @@
+INT_T
+VARIABLE 	 main
+'('
+STR_T
+VARIABLE 	 argv
+'['
+']'
+')'
+'{'
+INT_T
+VARIABLE 	 a
+'['
+INT_LIT  	 3
+']'
+'['
+INT_LIT  	 3
+']'
+';'
+FOR
+'('
+INT_T
+VARIABLE 	 i
+VAL_ASSIGN
+INT_LIT  	 0
+';'
+VARIABLE 	 i
+GTR
+INT_LIT  	 3
+';'
+VARIABLE 	 i
+INC_ASSIGN
+')'
+'{'
+FOR
+'('
+INT_T
+VARIABLE 	 j
+VAL_ASSIGN
+INT_LIT  	 0
+';'
+VARIABLE 	 j
+GTR
+INT_LIT  	 3
+';'
+VARIABLE 	 j
+INC_ASSIGN
+')'
+'{'
+VARIABLE 	 a
+'['
+VARIABLE 	 i
+']'
+'['
+VARIABLE 	 j
+']'
+VAL_ASSIGN
+'('
+VARIABLE 	 i
+ADD
+VARIABLE 	 j
+ADD
+INT_LIT  	 998244353
+')'
+MOD
+INT_LIT  	 82781
+';'
+'}'
+'}'
+FOR
+'('
+INT_T
+VARIABLE 	 i
+VAL_ASSIGN
+INT_LIT  	 2
+';'
+VARIABLE 	 i
+GEQ
+INT_LIT  	 0
+';'
+VARIABLE 	 i
+DEC_ASSIGN
+')'
+'{'
+FOR
+'('
+INT_T
+VARIABLE 	 j
+VAL_ASSIGN
+INT_LIT  	 0
+';'
+VARIABLE 	 j
+GTR
+INT_LIT  	 3
+';'
+VARIABLE 	 j
+INC_ASSIGN
+')'
+'{'
+COUT
+SHL
+VARIABLE 	 a
+'['
+VARIABLE 	 i
+']'
+'['
+VARIABLE 	 j
+']'
+SHL
+VARIABLE 	 endl
+';'
+'}'
+'}'
+RETURN
+INT_LIT  	 0
+';'
+'}'
+
+Total line: 20

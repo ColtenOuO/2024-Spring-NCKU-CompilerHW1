@@ -1,0 +1,131 @@
+INT_T
+VARIABLE 	 main
+'('
+STR_T
+VARIABLE 	 argv
+'['
+']'
+')'
+'{'
+INT_T
+VARIABLE 	 a
+'['
+INT_LIT  	 3
+']'
+'['
+INT_LIT  	 3
+']'
+';'
+VARIABLE 	 a
+'['
+INT_LIT  	 0
+']'
+'['
+INT_LIT  	 0
+']'
+VAL_ASSIGN
+INT_LIT  	 1
+';'
+VARIABLE 	 a
+'['
+INT_LIT  	 0
+']'
+'['
+INT_LIT  	 1
+']'
+VAL_ASSIGN
+INT_LIT  	 2
+';'
+VARIABLE 	 a
+'['
+INT_LIT  	 0
+']'
+'['
+INT_LIT  	 2
+']'
+VAL_ASSIGN
+INT_LIT  	 3
+';'
+VARIABLE 	 a
+'['
+INT_LIT  	 1
+']'
+'['
+INT_LIT  	 1
+']'
+VAL_ASSIGN
+INT_LIT  	 4
+';'
+VARIABLE 	 a
+'['
+INT_LIT  	 2
+']'
+'['
+INT_LIT  	 2
+']'
+VAL_ASSIGN
+INT_LIT  	 5
+';'
+COUT
+SHL
+VARIABLE 	 a
+'['
+INT_LIT  	 0
+']'
+'['
+INT_LIT  	 0
+']'
+SHL
+VARIABLE 	 endl
+';'
+COUT
+SHL
+VARIABLE 	 a
+'['
+INT_LIT  	 0
+']'
+'['
+INT_LIT  	 1
+']'
+SHL
+VARIABLE 	 endl
+';'
+COUT
+SHL
+VARIABLE 	 a
+'['
+INT_LIT  	 0
+']'
+'['
+INT_LIT  	 2
+']'
+SHL
+VARIABLE 	 endl
+';'
+COUT
+SHL
+VARIABLE 	 a
+'['
+INT_LIT  	 1
+']'
+'['
+INT_LIT  	 1
+']'
+SHL
+VARIABLE 	 endl
+';'
+COUT
+SHL
+VARIABLE 	 a
+'['
+INT_LIT  	 2
+']'
+'['
+INT_LIT  	 2
+']'
+SHL
+VARIABLE 	 endl
+';'
+'}'
+
+Total line: 13

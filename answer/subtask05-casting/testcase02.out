@@ -1,0 +1,69 @@
+INT_T
+VARIABLE 	 main
+'('
+STR_T
+VARIABLE 	 argv
+'['
+']'
+')'
+'{'
+INT_T
+VARIABLE 	 a
+VAL_ASSIGN
+INT_LIT  	 0
+','
+VARIABLE 	 b
+VAL_ASSIGN
+INT_LIT  	 0
+';'
+VARIABLE 	 a
+ADD_ASSIGN
+VARIABLE 	 b
+';'
+FLOAT_T
+VARIABLE 	 c
+VAL_ASSIGN
+FLOAT_LIT 	 3.14
+';'
+INT_T
+VARIABLE 	 d
+VAL_ASSIGN
+'('
+INT_T
+')'
+'('
+VARIABLE 	 c
+')'
+ADD
+'('
+INT_T
+')'
+FLOAT_LIT 	 2024.3934
+';'
+COUT
+SHL
+VARIABLE 	 d
+SHL
+VARIABLE 	 endl
+';'
+COUT
+SHL
+VARIABLE 	 a
+SHL
+VARIABLE 	 endl
+';'
+COUT
+SHL
+VARIABLE 	 b
+SHL
+VARIABLE 	 endl
+';'
+COUT
+SHL
+VARIABLE 	 c
+SHL
+VARIABLE 	 endl
+';'
+'}'
+
+Total line: 12

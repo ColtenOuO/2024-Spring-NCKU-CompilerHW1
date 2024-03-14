@@ -1,0 +1,220 @@
+INT_T
+VARIABLE 	 main
+'('
+STR_T
+VARIABLE 	 argv
+'['
+']'
+')'
+'{'
+INT_T
+VARIABLE 	 x
+VAL_ASSIGN
+INT_LIT  	 0
+';'
+COUT
+SHL
+'('
+VARIABLE 	 x
+')'
+SHL
+VARIABLE 	 endl
+';'
+VARIABLE 	 x
+VAL_ASSIGN
+INT_LIT  	 10
+';'
+COUT
+SHL
+'('
+VARIABLE 	 x
+')'
+SHL
+VARIABLE 	 endl
+';'
+VARIABLE 	 x
+ADD_ASSIGN
+INT_LIT  	 2
+';'
+COUT
+SHL
+'('
+VARIABLE 	 x
+')'
+SHL
+VARIABLE 	 endl
+';'
+VARIABLE 	 x
+SUB_ASSIGN
+INT_LIT  	 3
+';'
+COUT
+SHL
+'('
+VARIABLE 	 x
+')'
+SHL
+VARIABLE 	 endl
+';'
+VARIABLE 	 x
+MUL_ASSIGN
+INT_LIT  	 4
+';'
+COUT
+SHL
+'('
+VARIABLE 	 x
+')'
+SHL
+VARIABLE 	 endl
+';'
+VARIABLE 	 x
+DIV_ASSIGN
+INT_LIT  	 5
+';'
+COUT
+SHL
+'('
+VARIABLE 	 x
+')'
+SHL
+VARIABLE 	 endl
+';'
+VARIABLE 	 x
+REM_ASSIGN
+INT_LIT  	 6
+';'
+COUT
+SHL
+'('
+VARIABLE 	 x
+')'
+SHL
+VARIABLE 	 endl
+';'
+FLOAT_T
+VARIABLE 	 yy
+VAL_ASSIGN
+FLOAT_LIT 	 3.14
+';'
+COUT
+SHL
+'('
+VARIABLE 	 yy
+')'
+SHL
+VARIABLE 	 endl
+';'
+VARIABLE 	 yy
+VAL_ASSIGN
+FLOAT_LIT 	 10.4
+';'
+COUT
+SHL
+'('
+VARIABLE 	 yy
+')'
+SHL
+VARIABLE 	 endl
+';'
+VARIABLE 	 yy
+ADD_ASSIGN
+FLOAT_LIT 	 2.0
+';'
+COUT
+SHL
+'('
+VARIABLE 	 yy
+')'
+SHL
+VARIABLE 	 endl
+';'
+VARIABLE 	 yy
+SUB_ASSIGN
+FLOAT_LIT 	 3.0
+';'
+COUT
+SHL
+'('
+VARIABLE 	 yy
+')'
+SHL
+VARIABLE 	 endl
+';'
+VARIABLE 	 yy
+MUL_ASSIGN
+FLOAT_LIT 	 4.0
+';'
+COUT
+SHL
+'('
+VARIABLE 	 yy
+')'
+SHL
+VARIABLE 	 endl
+';'
+VARIABLE 	 yy
+DIV_ASSIGN
+FLOAT_LIT 	 5.0
+';'
+COUT
+SHL
+'('
+VARIABLE 	 yy
+')'
+SHL
+VARIABLE 	 endl
+';'
+STR_T
+VARIABLE 	 s
+VAL_ASSIGN
+STRING_LIT 	 ""
+';'
+COUT
+SHL
+'('
+VARIABLE 	 s
+')'
+SHL
+VARIABLE 	 endl
+';'
+VARIABLE 	 s
+VAL_ASSIGN
+STRING_LIT 	 "Hello"
+';'
+COUT
+SHL
+'('
+VARIABLE 	 s
+')'
+SHL
+VARIABLE 	 endl
+';'
+BOOL_T
+VARIABLE 	 bbb
+VAL_ASSIGN
+BOOL_LIT 	 false
+';'
+COUT
+SHL
+'('
+VARIABLE 	 bbb
+')'
+SHL
+VARIABLE 	 endl
+';'
+VARIABLE 	 bbb
+VAL_ASSIGN
+BOOL_LIT 	 true
+';'
+COUT
+SHL
+'('
+VARIABLE 	 bbb
+')'
+SHL
+VARIABLE 	 endl
+';'
+'}'
+
+Total line: 39
