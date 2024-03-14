@@ -1,31 +1,31 @@
 INT_T
-VARIABLE 	 main
+IDENT    	 main
 '('
 STR_T
-VARIABLE 	 argv
+IDENT    	 argv
 '['
 ']'
 ')'
 '{'
 INT_T
-VARIABLE 	 counter
+IDENT    	 counter
 VAL_ASSIGN
 INT_LIT  	 0
 ';'
 WHILE
 '('
-VARIABLE 	 counter
+IDENT    	 counter
 GTR
 INT_LIT  	 100000
 ')'
 '{'
-VARIABLE 	 counter
+IDENT    	 counter
 ADD_ASSIGN
 INT_LIT  	 1
 ';'
 IF
 '('
-VARIABLE 	 counter
+IDENT    	 counter
 EQL
 INT_LIT  	 99999
 ')'
@@ -35,7 +35,7 @@ BREAK
 '}'
 IF
 '('
-VARIABLE 	 counter
+IDENT    	 counter
 MOD
 INT_LIT  	 91
 EQL
@@ -46,27 +46,27 @@ COUT
 SHL
 STRING_LIT 	 "Hello World "
 SHL
-VARIABLE 	 counter
+IDENT    	 counter
 MOD
 INT_LIT  	 91
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 COUT
 SHL
 INT_LIT  	 998244353
 MOD
-VARIABLE 	 counter
+IDENT    	 counter
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 COUT
 SHL
-VARIABLE 	 counter
+IDENT    	 counter
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 

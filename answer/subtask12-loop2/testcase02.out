@@ -1,14 +1,14 @@
 INT_T
-VARIABLE 	 main
+IDENT    	 main
 '('
 STR_T
-VARIABLE 	 argv
+IDENT    	 argv
 '['
 ']'
 ')'
 '{'
 INT_T
-VARIABLE 	 a
+IDENT    	 a
 '['
 INT_LIT  	 10
 ']'
@@ -27,21 +27,21 @@ INT_LIT  	 50
 ';'
 FOR
 '('
-VARIABLE 	 auto
-VARIABLE 	 i
+AUTO_T
+IDENT    	 i
 ':'
-VARIABLE 	 a
+IDENT    	 a
 ')'
 '{'
 COUT
 SHL
-VARIABLE 	 i
+IDENT    	 i
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 IF
 '('
-VARIABLE 	 i
+IDENT    	 i
 MOD
 INT_LIT  	 2
 EQL
@@ -52,7 +52,7 @@ COUT
 SHL
 STRING_LIT 	 "Even"
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 '}'

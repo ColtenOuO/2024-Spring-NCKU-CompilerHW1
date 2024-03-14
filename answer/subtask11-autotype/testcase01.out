@@ -1,31 +1,31 @@
 INT_T
-VARIABLE 	 main
+IDENT    	 main
 '('
 STR_T
-VARIABLE 	 argv
+IDENT    	 argv
 '['
 ']'
 ')'
 '{'
-VARIABLE 	 auto
-VARIABLE 	 x
+AUTO_T
+IDENT    	 x
 VAL_ASSIGN
 FLOAT_LIT 	 6.0
 ';'
-VARIABLE 	 auto
-VARIABLE 	 y
+AUTO_T
+IDENT    	 y
 VAL_ASSIGN
 BOOL_LIT 	 true
 ';'
 COUT
 SHL
-VARIABLE 	 x
+IDENT    	 x
 SHL
 STRING_LIT 	 " "
 SHL
-VARIABLE 	 y
+IDENT    	 y
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 

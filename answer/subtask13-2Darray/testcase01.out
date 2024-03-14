@@ -1,14 +1,14 @@
 INT_T
-VARIABLE 	 main
+IDENT    	 main
 '('
 STR_T
-VARIABLE 	 argv
+IDENT    	 argv
 '['
 ']'
 ')'
 '{'
 INT_T
-VARIABLE 	 a
+IDENT    	 a
 '['
 INT_LIT  	 3
 ']'
@@ -16,7 +16,7 @@ INT_LIT  	 3
 INT_LIT  	 3
 ']'
 ';'
-VARIABLE 	 a
+IDENT    	 a
 '['
 INT_LIT  	 0
 ']'
@@ -26,7 +26,7 @@ INT_LIT  	 0
 VAL_ASSIGN
 INT_LIT  	 1
 ';'
-VARIABLE 	 a
+IDENT    	 a
 '['
 INT_LIT  	 0
 ']'
@@ -36,7 +36,7 @@ INT_LIT  	 1
 VAL_ASSIGN
 INT_LIT  	 2
 ';'
-VARIABLE 	 a
+IDENT    	 a
 '['
 INT_LIT  	 0
 ']'
@@ -46,7 +46,7 @@ INT_LIT  	 2
 VAL_ASSIGN
 INT_LIT  	 3
 ';'
-VARIABLE 	 a
+IDENT    	 a
 '['
 INT_LIT  	 1
 ']'
@@ -56,7 +56,7 @@ INT_LIT  	 1
 VAL_ASSIGN
 INT_LIT  	 4
 ';'
-VARIABLE 	 a
+IDENT    	 a
 '['
 INT_LIT  	 2
 ']'
@@ -68,7 +68,7 @@ INT_LIT  	 5
 ';'
 COUT
 SHL
-VARIABLE 	 a
+IDENT    	 a
 '['
 INT_LIT  	 0
 ']'
@@ -76,11 +76,11 @@ INT_LIT  	 0
 INT_LIT  	 0
 ']'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 COUT
 SHL
-VARIABLE 	 a
+IDENT    	 a
 '['
 INT_LIT  	 0
 ']'
@@ -88,11 +88,11 @@ INT_LIT  	 0
 INT_LIT  	 1
 ']'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 COUT
 SHL
-VARIABLE 	 a
+IDENT    	 a
 '['
 INT_LIT  	 0
 ']'
@@ -100,11 +100,11 @@ INT_LIT  	 0
 INT_LIT  	 2
 ']'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 COUT
 SHL
-VARIABLE 	 a
+IDENT    	 a
 '['
 INT_LIT  	 1
 ']'
@@ -112,11 +112,11 @@ INT_LIT  	 1
 INT_LIT  	 1
 ']'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 COUT
 SHL
-VARIABLE 	 a
+IDENT    	 a
 '['
 INT_LIT  	 2
 ']'
@@ -124,7 +124,7 @@ INT_LIT  	 2
 INT_LIT  	 2
 ']'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 

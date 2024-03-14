@@ -1,14 +1,14 @@
 INT_T
-VARIABLE 	 main
+IDENT    	 main
 '('
 STR_T
-VARIABLE 	 argv
+IDENT    	 argv
 '['
 ']'
 ')'
 '{'
 INT_T
-VARIABLE 	 a
+IDENT    	 a
 '['
 INT_LIT  	 5
 ']'
@@ -27,43 +27,43 @@ INT_LIT  	 50
 ';'
 COUT
 SHL
-VARIABLE 	 a
+IDENT    	 a
 '['
 INT_LIT  	 0
 ']'
 SHL
 STRING_LIT 	 " "
 SHL
-VARIABLE 	 a
+IDENT    	 a
 '['
 INT_LIT  	 1
 ']'
 SHL
 STRING_LIT 	 " "
 SHL
-VARIABLE 	 a
+IDENT    	 a
 '['
 INT_LIT  	 2
 ']'
 SHL
 STRING_LIT 	 " "
 SHL
-VARIABLE 	 a
+IDENT    	 a
 '['
 INT_LIT  	 3
 ']'
 SHL
 STRING_LIT 	 " "
 SHL
-VARIABLE 	 a
+IDENT    	 a
 '['
 INT_LIT  	 4
 ']'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 INT_T
-VARIABLE 	 b
+IDENT    	 b
 '['
 INT_LIT  	 1001
 ']'
@@ -71,14 +71,14 @@ VAL_ASSIGN
 '{'
 '}'
 ';'
-VARIABLE 	 b
+IDENT    	 b
 '['
 INT_LIT  	 3
 ']'
 VAL_ASSIGN
 INT_LIT  	 9
 ';'
-VARIABLE 	 b
+IDENT    	 b
 '['
 INT_LIT  	 1000
 ']'
@@ -87,19 +87,19 @@ INT_LIT  	 1000
 ';'
 COUT
 SHL
-VARIABLE 	 b
+IDENT    	 b
 '['
 INT_LIT  	 3
 ']'
 SHL
 STRING_LIT 	 " "
 SHL
-VARIABLE 	 b
+IDENT    	 b
 '['
 INT_LIT  	 1000
 ']'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 

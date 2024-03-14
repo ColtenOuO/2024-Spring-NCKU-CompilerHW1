@@ -1,219 +1,219 @@
 INT_T
-VARIABLE 	 main
+IDENT    	 main
 '('
 STR_T
-VARIABLE 	 argv
+IDENT    	 argv
 '['
 ']'
 ')'
 '{'
 INT_T
-VARIABLE 	 x
+IDENT    	 x
 VAL_ASSIGN
 INT_LIT  	 0
 ';'
 COUT
 SHL
 '('
-VARIABLE 	 x
+IDENT    	 x
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
-VARIABLE 	 x
+IDENT    	 x
 VAL_ASSIGN
 INT_LIT  	 10
 ';'
 COUT
 SHL
 '('
-VARIABLE 	 x
+IDENT    	 x
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
-VARIABLE 	 x
+IDENT    	 x
 ADD_ASSIGN
 INT_LIT  	 2
 ';'
 COUT
 SHL
 '('
-VARIABLE 	 x
+IDENT    	 x
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
-VARIABLE 	 x
+IDENT    	 x
 SUB_ASSIGN
 INT_LIT  	 3
 ';'
 COUT
 SHL
 '('
-VARIABLE 	 x
+IDENT    	 x
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
-VARIABLE 	 x
+IDENT    	 x
 MUL_ASSIGN
 INT_LIT  	 4
 ';'
 COUT
 SHL
 '('
-VARIABLE 	 x
+IDENT    	 x
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
-VARIABLE 	 x
+IDENT    	 x
 DIV_ASSIGN
 INT_LIT  	 5
 ';'
 COUT
 SHL
 '('
-VARIABLE 	 x
+IDENT    	 x
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
-VARIABLE 	 x
+IDENT    	 x
 REM_ASSIGN
 INT_LIT  	 6
 ';'
 COUT
 SHL
 '('
-VARIABLE 	 x
+IDENT    	 x
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 FLOAT_T
-VARIABLE 	 yy
+IDENT    	 yy
 VAL_ASSIGN
 FLOAT_LIT 	 3.14
 ';'
 COUT
 SHL
 '('
-VARIABLE 	 yy
+IDENT    	 yy
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
-VARIABLE 	 yy
+IDENT    	 yy
 VAL_ASSIGN
 FLOAT_LIT 	 10.4
 ';'
 COUT
 SHL
 '('
-VARIABLE 	 yy
+IDENT    	 yy
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
-VARIABLE 	 yy
+IDENT    	 yy
 ADD_ASSIGN
 FLOAT_LIT 	 2.0
 ';'
 COUT
 SHL
 '('
-VARIABLE 	 yy
+IDENT    	 yy
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
-VARIABLE 	 yy
+IDENT    	 yy
 SUB_ASSIGN
 FLOAT_LIT 	 3.0
 ';'
 COUT
 SHL
 '('
-VARIABLE 	 yy
+IDENT    	 yy
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
-VARIABLE 	 yy
+IDENT    	 yy
 MUL_ASSIGN
 FLOAT_LIT 	 4.0
 ';'
 COUT
 SHL
 '('
-VARIABLE 	 yy
+IDENT    	 yy
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
-VARIABLE 	 yy
+IDENT    	 yy
 DIV_ASSIGN
 FLOAT_LIT 	 5.0
 ';'
 COUT
 SHL
 '('
-VARIABLE 	 yy
+IDENT    	 yy
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 STR_T
-VARIABLE 	 s
+IDENT    	 s
 VAL_ASSIGN
 STRING_LIT 	 ""
 ';'
 COUT
 SHL
 '('
-VARIABLE 	 s
+IDENT    	 s
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
-VARIABLE 	 s
+IDENT    	 s
 VAL_ASSIGN
 STRING_LIT 	 "Hello"
 ';'
 COUT
 SHL
 '('
-VARIABLE 	 s
+IDENT    	 s
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 BOOL_T
-VARIABLE 	 bbb
+IDENT    	 bbb
 VAL_ASSIGN
 BOOL_LIT 	 false
 ';'
 COUT
 SHL
 '('
-VARIABLE 	 bbb
+IDENT    	 bbb
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
-VARIABLE 	 bbb
+IDENT    	 bbb
 VAL_ASSIGN
 BOOL_LIT 	 true
 ';'
 COUT
 SHL
 '('
-VARIABLE 	 bbb
+IDENT    	 bbb
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 

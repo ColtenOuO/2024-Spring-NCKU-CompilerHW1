@@ -1,60 +1,60 @@
 INT_T
-VARIABLE 	 main
+IDENT    	 main
 '('
 STR_T
-VARIABLE 	 argv
+IDENT    	 argv
 '['
 ']'
 ')'
 '{'
 INT_T
-VARIABLE 	 x
+IDENT    	 x
 VAL_ASSIGN
 INT_LIT  	 3
 ';'
 FLOAT_T
-VARIABLE 	 y
+IDENT    	 y
 VAL_ASSIGN
 FLOAT_LIT 	 3.14
 ';'
 INT_T
-VARIABLE 	 z1
+IDENT    	 z1
 ','
-VARIABLE 	 z2
+IDENT    	 z2
 ';'
-VARIABLE 	 z1
+IDENT    	 z1
 VAL_ASSIGN
-VARIABLE 	 x
+IDENT    	 x
 ADD
 '('
 INT_T
 ')'
 '('
-VARIABLE 	 y
+IDENT    	 y
 ')'
 ';'
-VARIABLE 	 z2
+IDENT    	 z2
 VAL_ASSIGN
 '('
 FLOAT_T
 ')'
-VARIABLE 	 x
+IDENT    	 x
 ADD
-VARIABLE 	 y
+IDENT    	 y
 ';'
 COUT
 SHL
-VARIABLE 	 z1
+IDENT    	 z1
 SHL
 STRING_LIT 	 " "
 SHL
-VARIABLE 	 z2
+IDENT    	 z2
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
-VARIABLE 	 z1
+IDENT    	 z1
 VAL_ASSIGN
-VARIABLE 	 x
+IDENT    	 x
 ADD
 '('
 INT_T
@@ -63,7 +63,7 @@ INT_T
 FLOAT_LIT 	 6.28
 ')'
 ';'
-VARIABLE 	 z2
+IDENT    	 z2
 VAL_ASSIGN
 '('
 FLOAT_T
@@ -72,19 +72,19 @@ FLOAT_T
 INT_LIT  	 6
 ')'
 ADD
-VARIABLE 	 y
+IDENT    	 y
 ';'
 COUT
 SHL
-VARIABLE 	 z1
+IDENT    	 z1
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 COUT
 SHL
-VARIABLE 	 z2
+IDENT    	 z2
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 RETURN
 INT_LIT  	 0

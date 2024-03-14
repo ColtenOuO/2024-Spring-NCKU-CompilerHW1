@@ -1,33 +1,33 @@
 INT_T
-VARIABLE 	 main
+IDENT    	 main
 '('
 STR_T
-VARIABLE 	 argv
+IDENT    	 argv
 '['
 ']'
 ')'
 '{'
 INT_T
-VARIABLE 	 a
+IDENT    	 a
 VAL_ASSIGN
 INT_LIT  	 0
 ','
-VARIABLE 	 b
+IDENT    	 b
 VAL_ASSIGN
 INT_LIT  	 0
 ','
-VARIABLE 	 c
+IDENT    	 c
 VAL_ASSIGN
 INT_LIT  	 10
 ';'
 WHILE
 '('
-VARIABLE 	 c
+IDENT    	 c
 NEQ
 INT_LIT  	 0
 ')'
 '{'
-VARIABLE 	 c
+IDENT    	 c
 SUB_ASSIGN
 INT_LIT  	 1
 ';'
@@ -35,41 +35,41 @@ INT_LIT  	 1
 WHILE
 '('
 '('
-VARIABLE 	 a
+IDENT    	 a
 ')'
 EQL
 INT_LIT  	 0
 LOR
 '('
-VARIABLE 	 b
+IDENT    	 b
 ')'
 EQL
 INT_LIT  	 0
 LOR
 '('
-VARIABLE 	 a
+IDENT    	 a
 EQL
 INT_LIT  	 0
 LOR
-VARIABLE 	 b
+IDENT    	 b
 EQL
 INT_LIT  	 10
 LOR
-VARIABLE 	 c
+IDENT    	 c
 EQL
 INT_LIT  	 0
 ')'
 ')'
 '{'
-VARIABLE 	 a
+IDENT    	 a
 SUB_ASSIGN
 INT_LIT  	 1
 ';'
-VARIABLE 	 b
+IDENT    	 b
 SUB_ASSIGN
 INT_LIT  	 1
 ';'
-VARIABLE 	 c
+IDENT    	 c
 SUB_ASSIGN
 INT_LIT  	 1
 ';'

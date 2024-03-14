@@ -1,8 +1,8 @@
 INT_T
-VARIABLE 	 main
+IDENT    	 main
 '('
 STR_T
-VARIABLE 	 argv
+IDENT    	 argv
 '['
 ']'
 ')'
@@ -26,7 +26,7 @@ DIV
 INT_LIT  	 7
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 COUT
 SHL
@@ -59,7 +59,7 @@ NOT
 BOOL_LIT 	 false
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 COUT
 SHL
@@ -80,7 +80,7 @@ DIV
 FLOAT_LIT 	 7.0
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 COUT
 SHL
@@ -109,7 +109,7 @@ NOT
 NOT
 BOOL_LIT 	 false
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 COUT
 SHL
@@ -144,7 +144,7 @@ NEQ
 INT_LIT  	 0
 ')'
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 RETURN
 INT_LIT  	 0

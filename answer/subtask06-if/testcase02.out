@@ -1,52 +1,52 @@
 INT_T
-VARIABLE 	 main
+IDENT    	 main
 '('
 STR_T
-VARIABLE 	 argv
+IDENT    	 argv
 '['
 ']'
 ')'
 '{'
 INT_T
-VARIABLE 	 a
+IDENT    	 a
 VAL_ASSIGN
 INT_LIT  	 0
 ','
-VARIABLE 	 b
+IDENT    	 b
 VAL_ASSIGN
 INT_LIT  	 0
 ','
-VARIABLE 	 c
+IDENT    	 c
 VAL_ASSIGN
 INT_LIT  	 10
 ';'
 IF
 '('
-VARIABLE 	 a
+IDENT    	 a
 EQL
 INT_LIT  	 0
 LAN
-VARIABLE 	 b
+IDENT    	 b
 EQL
 INT_LIT  	 0
 ')'
 '{'
 COUT
 SHL
-VARIABLE 	 a
+IDENT    	 a
 SHL
-VARIABLE 	 b
+IDENT    	 b
 SHL
-VARIABLE 	 c
+IDENT    	 c
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 IF
 '('
-VARIABLE 	 c
+IDENT    	 c
 SUB
-VARIABLE 	 b
+IDENT    	 b
 GEQ
 INT_LIT  	 0
 ')'
@@ -55,22 +55,22 @@ COUT
 SHL
 STRING_LIT 	 "OK!"
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 IF
 '('
 '('
-VARIABLE 	 a
+IDENT    	 a
 EQL
 INT_LIT  	 0
 LAN
-VARIABLE 	 b
+IDENT    	 b
 NEQ
 INT_LIT  	 0
 ')'
 LOR
-VARIABLE 	 c
+IDENT    	 c
 EQL
 INT_LIT  	 10
 ')'
@@ -79,7 +79,7 @@ COUT
 SHL
 STRING_LIT 	 "test1"
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 ELSE
@@ -87,36 +87,36 @@ ELSE
 IF
 '('
 '('
-VARIABLE 	 c
+IDENT    	 c
 EQL
 INT_LIT  	 10
 LOR
-VARIABLE 	 a
+IDENT    	 a
 NEQ
 INT_LIT  	 0
 ')'
 LAN
 '('
 '('
-VARIABLE 	 a
+IDENT    	 a
 EQL
 INT_LIT  	 0
 LAN
-VARIABLE 	 b
+IDENT    	 b
 EQL
 INT_LIT  	 0
 LAN
-VARIABLE 	 c
+IDENT    	 c
 EQL
 INT_LIT  	 0
 LAN
 '('
-VARIABLE 	 c
+IDENT    	 c
 EQL
 INT_LIT  	 10
 LOR
 '('
-VARIABLE 	 a
+IDENT    	 a
 ')'
 EQL
 INT_LIT  	 0
@@ -129,7 +129,7 @@ COUT
 SHL
 STRING_LIT 	 "test2"
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 ELSE
@@ -138,7 +138,7 @@ COUT
 SHL
 STRING_LIT 	 "test3"
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 IF
 '('
@@ -149,7 +149,7 @@ COUT
 SHL
 STRING_LIT 	 "test4"
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 '}'
@@ -163,7 +163,7 @@ COUT
 SHL
 STRING_LIT 	 "test6"
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 RETURN

@@ -1,29 +1,29 @@
 INT_T
-VARIABLE 	 main
+IDENT    	 main
 '('
 STR_T
-VARIABLE 	 argv
+IDENT    	 argv
 '['
 ']'
 ')'
 '{'
 INT_T
-VARIABLE 	 c
+IDENT    	 c
 VAL_ASSIGN
 INT_LIT  	 10
 ';'
 FOR
 '('
 INT_T
-VARIABLE 	 i
+IDENT    	 i
 VAL_ASSIGN
 INT_LIT  	 0
 ';'
-VARIABLE 	 i
+IDENT    	 i
 GTR
-VARIABLE 	 c
+IDENT    	 c
 ';'
-VARIABLE 	 i
+IDENT    	 i
 INC_ASSIGN
 ')'
 '{'
@@ -31,17 +31,17 @@ COUT
 SHL
 STRING_LIT 	 "Hello world"
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 FOR
 '('
 ';'
-VARIABLE 	 c
+IDENT    	 c
 GEQ
 INT_LIT  	 0
 ';'
-VARIABLE 	 c
+IDENT    	 c
 SUB_ASSIGN
 INT_LIT  	 1
 ')'
@@ -50,7 +50,7 @@ COUT
 SHL
 STRING_LIT 	 "apple!"
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 RETURN

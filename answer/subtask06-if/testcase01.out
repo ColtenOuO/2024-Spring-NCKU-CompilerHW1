@@ -1,20 +1,20 @@
 INT_T
-VARIABLE 	 main
+IDENT    	 main
 '('
 STR_T
-VARIABLE 	 argv
+IDENT    	 argv
 '['
 ']'
 ')'
 '{'
 INT_T
-VARIABLE 	 apple
+IDENT    	 apple
 VAL_ASSIGN
 INT_LIT  	 0
 ';'
 IF
 '('
-VARIABLE 	 apple
+IDENT    	 apple
 EQL
 INT_LIT  	 0
 ')'
@@ -23,12 +23,12 @@ COUT
 SHL
 STRING_LIT 	 "Hello"
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 IF
 '('
-VARIABLE 	 apple
+IDENT    	 apple
 NEQ
 INT_LIT  	 0
 ')'
@@ -37,7 +37,7 @@ COUT
 SHL
 STRING_LIT 	 "Hello"
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 ELSE
@@ -46,7 +46,7 @@ COUT
 SHL
 STRING_LIT 	 "Bye"
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 '}'

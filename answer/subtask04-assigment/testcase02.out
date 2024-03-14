@@ -1,100 +1,100 @@
 INT_T
-VARIABLE 	 main
+IDENT    	 main
 '('
 STR_T
-VARIABLE 	 argv
+IDENT    	 argv
 '['
 ']'
 ')'
 '{'
 INT_T
-VARIABLE 	 a
+IDENT    	 a
 ','
-VARIABLE 	 b
+IDENT    	 b
 ','
-VARIABLE 	 c
+IDENT    	 c
 ','
-VARIABLE 	 d
+IDENT    	 d
 ','
-VARIABLE 	 e
+IDENT    	 e
 ';'
-VARIABLE 	 a
+IDENT    	 a
 VAL_ASSIGN
 INT_LIT  	 12
 ';'
-VARIABLE 	 b
+IDENT    	 b
 VAL_ASSIGN
-VARIABLE 	 a
+IDENT    	 a
 ';'
-VARIABLE 	 c
+IDENT    	 c
 VAL_ASSIGN
-VARIABLE 	 a
+IDENT    	 a
 ';'
-VARIABLE 	 d
+IDENT    	 d
 VAL_ASSIGN
-VARIABLE 	 b
+IDENT    	 b
 ';'
-VARIABLE 	 e
+IDENT    	 e
 VAL_ASSIGN
-VARIABLE 	 b
+IDENT    	 b
 ';'
-VARIABLE 	 a
+IDENT    	 a
 ADD_ASSIGN
-VARIABLE 	 a
+IDENT    	 a
 ';'
-VARIABLE 	 b
+IDENT    	 b
 ADD_ASSIGN
-VARIABLE 	 b
+IDENT    	 b
 ';'
-VARIABLE 	 c
+IDENT    	 c
 DIV_ASSIGN
-VARIABLE 	 c
+IDENT    	 c
 ';'
 COUT
 SHL
-VARIABLE 	 a
+IDENT    	 a
 SHL
 STRING_LIT 	 " "
 SHL
-VARIABLE 	 b
+IDENT    	 b
 SHL
 STRING_LIT 	 " "
 SHL
-VARIABLE 	 c
+IDENT    	 c
 SHL
 STRING_LIT 	 " "
 SHL
-VARIABLE 	 d
+IDENT    	 d
 SHL
 STRING_LIT 	 " "
 SHL
-VARIABLE 	 e
+IDENT    	 e
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
-VARIABLE 	 e
+IDENT    	 e
 VAL_ASSIGN
 INT_LIT  	 100
 ';'
-VARIABLE 	 e
+IDENT    	 e
 SHL_ASSIGN
 INT_LIT  	 2
 ';'
 COUT
 SHL
-VARIABLE 	 e
+IDENT    	 e
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
-VARIABLE 	 e
+IDENT    	 e
 SHR_ASSIGN
 INT_LIT  	 4
 ';'
 COUT
 SHL
-VARIABLE 	 e
+IDENT    	 e
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 

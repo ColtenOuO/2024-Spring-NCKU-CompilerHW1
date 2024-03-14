@@ -1,60 +1,60 @@
 BOOL_T
-VARIABLE 	 check
+IDENT    	 check
 '('
 INT_T
-VARIABLE 	 a
+IDENT    	 a
 ','
 INT_T
-VARIABLE 	 b
+IDENT    	 b
 ','
 STR_T
-VARIABLE 	 s
+IDENT    	 s
 ','
 BOOL_T
-VARIABLE 	 c
+IDENT    	 c
 ')'
 '{'
 COUT
 SHL
-VARIABLE 	 s
+IDENT    	 s
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 COUT
 SHL
-VARIABLE 	 a
+IDENT    	 a
 SHL
 STRING_LIT 	 " "
 SHL
-VARIABLE 	 b
+IDENT    	 b
 SHL
 STRING_LIT 	 " "
 SHL
-VARIABLE 	 s
+IDENT    	 s
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 RETURN
 '('
-VARIABLE 	 c
+IDENT    	 c
 EQL
 BOOL_LIT 	 true
 ')'
 ';'
 '}'
 INT_T
-VARIABLE 	 main
+IDENT    	 main
 '('
 STR_T
-VARIABLE 	 argv
+IDENT    	 argv
 '['
 ']'
 ')'
 '{'
 BOOL_T
-VARIABLE 	 result
+IDENT    	 result
 VAL_ASSIGN
-VARIABLE 	 check
+IDENT    	 check
 '('
 INT_LIT  	 1
 ','
@@ -66,17 +66,17 @@ BOOL_LIT 	 true
 ')'
 ';'
 INT_T
-VARIABLE 	 num
+IDENT    	 num
 VAL_ASSIGN
-VARIABLE 	 result
+IDENT    	 result
 ADD
 INT_LIT  	 7
 ';'
 COUT
 SHL
-VARIABLE 	 num
+IDENT    	 num
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 RETURN
 INT_LIT  	 0

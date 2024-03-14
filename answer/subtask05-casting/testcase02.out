@@ -1,38 +1,38 @@
 INT_T
-VARIABLE 	 main
+IDENT    	 main
 '('
 STR_T
-VARIABLE 	 argv
+IDENT    	 argv
 '['
 ']'
 ')'
 '{'
 INT_T
-VARIABLE 	 a
+IDENT    	 a
 VAL_ASSIGN
 INT_LIT  	 0
 ','
-VARIABLE 	 b
+IDENT    	 b
 VAL_ASSIGN
 INT_LIT  	 0
 ';'
-VARIABLE 	 a
+IDENT    	 a
 ADD_ASSIGN
-VARIABLE 	 b
+IDENT    	 b
 ';'
 FLOAT_T
-VARIABLE 	 c
+IDENT    	 c
 VAL_ASSIGN
 FLOAT_LIT 	 3.14
 ';'
 INT_T
-VARIABLE 	 d
+IDENT    	 d
 VAL_ASSIGN
 '('
 INT_T
 ')'
 '('
-VARIABLE 	 c
+IDENT    	 c
 ')'
 ADD
 '('
@@ -42,27 +42,27 @@ FLOAT_LIT 	 2024.3934
 ';'
 COUT
 SHL
-VARIABLE 	 d
+IDENT    	 d
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 COUT
 SHL
-VARIABLE 	 a
+IDENT    	 a
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 COUT
 SHL
-VARIABLE 	 b
+IDENT    	 b
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 COUT
 SHL
-VARIABLE 	 c
+IDENT    	 c
 SHL
-VARIABLE 	 endl
+IDENT    	 endl
 ';'
 '}'
 
