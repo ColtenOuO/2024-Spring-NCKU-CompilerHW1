@@ -1,20 +1,20 @@
 CFLAGS := -Wall -O0 -ggdb
-LEX_SRC := ./compiler.l
-COMPILER := compiler
+LEX_SRC := ./scanner.l
+COMPILER := scanner
 BUILD := ./build
 BUILD_OUT := out
 
 COMPILER_OUT := ${BUILD}/${BUILD_OUT}/${COMPILER}
 LEX_OUT := ${BUILD}/lex.yy.c
 
-all: create_build_folder create_compiler run
+all: build run
 
 create_build_folder:
 	mkdir -p ${BUILD}
 	mkdir -p ${BUILD}/${BUILD_OUT}
 
-create_compiler: lex.yy.c
-	$(info ########## Compile Compiler ##########)
+build: create_build_folder lex.yy.c
+	$(info ########## Compile Scanner ##########)
 	gcc ${CFLAGS} -iquote ./ -iquote ../ -o ${COMPILER_OUT} ${LEX_OUT}
 
 lex.yy.c:
@@ -22,8 +22,8 @@ lex.yy.c:
 	lex -o ${LEX_OUT} ${LEX_SRC}
 
 run:
-	$(info ########## Run Compiler ##########)
-	@${COMPILER_OUT} output
+	$(info ########## Run Scanner ##########)
+	@${COMPILER_OUT}
 
 clean:
 	rm -rf ${BUILD}

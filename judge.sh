@@ -1,8 +1,8 @@
 #!/bin/bash
-input_dir="../input"
+input_dir="input"
 result_dir="result"
 answer_dir="answer"
-compiler="./build/out/compiler"
+compiler="./build/out/scanner"
 
 RED="\033[0;31m"
 GREEN="\033[0;32m"
@@ -14,27 +14,40 @@ specific_subtest=""
 specific_testcase=""
 specific_test_find=false
 
+usage() {
+    echo "Usage: $0 [-d|--diff] [--case=subtask/testcase] [-h|--help]"
+    echo "Options:"
+    echo "  -d, --diff        Show difference between actual and expected output"
+    echo "  --case=subtask/testcase"
+    echo "                    Run a specific testcase"
+    echo "  -h, --help        Display this usage information"
+}
+
 # Parse command-line arguments
 while [[ $# -gt 0 ]]; do
     key="$1"
     case $key in
         -d|--diff)
-        show_diff=true
-        shift
+            show_diff=true
+            shift
         ;;
         --case=*)
-        specific_test="${key#*=}"
-        specific_subtest=$(dirname $specific_test)
-        specific_testcase=$(basename $specific_test)
-        if [ $specific_subtest = "." ]; then
-            specific_subtest=$specific_testcase
-            specific_testcase=""
-        fi
-        shift
+            specific_test="${key#*=}"
+            specific_subtest=$(dirname $specific_test)
+            specific_testcase=$(basename $specific_test)
+            if [ $specific_subtest = "." ]; then
+                specific_subtest=$specific_testcase
+                specific_testcase=""
+            fi
+            shift
+        ;;
+        -h|--help)
+            usage
+            exit 0
         ;;
         *)
-        echo "Unknown option: $key"
-        exit 1
+            echo "Unknown option: $key"
+            exit 1
         ;;
     esac
 done

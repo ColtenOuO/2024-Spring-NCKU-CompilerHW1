@@ -3,6 +3,16 @@
 
 112-2 國立成功大學編譯系統作業 1 初始檔案
 
+## Environmental Setup
+
+For linux
+
+- Install Dependencies
+
+```shell
+sudo apt install build-essential flex bison git
+```
+
 ## Build Your Scanner
 
 ```shell
@@ -89,6 +99,10 @@ make all < ../input/subtask00-helloworld/testcase01.cpp
 | {Integer number}  | INT_LIT       |
 | {Float number}    | FLOAT_LIT     |
 | {Identifier}      | IDENT         |
+| {multiline comment}   | MULTI_COMMENT |
+| {singleline comment}  | COMMENT       |
+| {string}          | STRING_LIT    |
+| {character}       | CHAR_LIT      |
 
 ## Example of Your Scanner Output
 
