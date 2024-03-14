@@ -52,7 +52,7 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-make create_build_folder create_compiler
+make build
 
 run_test() {
     local subtask="$1"
