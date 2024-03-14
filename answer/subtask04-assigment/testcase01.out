@@ -92,6 +92,30 @@ IDENT    	 x
 SHL
 IDENT    	 endl
 ';'
+IDENT    	 x
+BOR_ASSIGN
+INT_LIT  	 4092
+';'
+COUT
+SHL
+'('
+IDENT    	 x
+')'
+SHL
+IDENT    	 endl
+';'
+IDENT    	 x
+BAN_ASSIGN
+INT_LIT  	 255
+';'
+COUT
+SHL
+'('
+IDENT    	 x
+')'
+SHL
+IDENT    	 endl
+';'
 FLOAT_T
 IDENT    	 yy
 VAL_ASSIGN
@@ -217,4 +241,4 @@ IDENT    	 endl
 ';'
 '}'
 
-Total line: 39
+Total line: 43

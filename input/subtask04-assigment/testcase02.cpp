@@ -1,9 +1,9 @@
 int main(string argv[]) {
     int a,b,c,d,e;
-    a = 12;
-    b = a;
+    a = ~243 & 15;
+    b = a >> 1;
     c = a;
-    d = b;
+    d = b | 9;
     e = b;
 
     a += a;
@@ -11,7 +11,7 @@ int main(string argv[]) {
     c /= c;
 
     cout << a << " " << b << " " << c << " " << d << " " << e << endl;
-    e = 100;
+    e = 100 ^ 255;
     e <<= 2;
     cout << e << endl;
     e >>= 4;

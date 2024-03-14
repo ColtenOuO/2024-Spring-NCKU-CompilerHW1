@@ -31,78 +31,21 @@ make all < ../input/subtask00-helloworld/testcase01.cpp
 ./judge.sh
 ```
 
-## Token Table
+- Show diff
 
-| Symbol            | Token         |
-| ----------------- | ------------- |
-| `>>`              | SHR           |
-| `<<`              | SHL           |
-| `&`               | BAN           |
-| `\|`              | BOR           |
-| `~`               | BNT           |
-| `^`               | BXO           |
-| `+`               | ADD           |
-| `-`               | SUB           |
-| `*`               | MUL           |
-| `/`               | DIV           |
-| `%`               | MOD           |
-| `!`               | NOT           |
-| `>`               | LES           |
-| `<`               | GTR           |
-| `>=`              | GEQ           |
-| `<=`              | LEQ           |
-| `==`              | EQL           |
-| `!=`              | NEQ           |
-| `&&`              | LAN           |
-| `\|\|`            | LOR           |
-| `=`               | VAL_ASSIGN    |
-| `+=`              | ADD_ASSIGN    |
-| `-=`              | SUB_ASSIGN    |
-| `*=`              | MUL_ASSIGN    |
-| `/=`              | DIV_ASSIGN    |
-| `%=`              | REM_ASSIGN    |
-| `>>=`             | SHR_ASSIGN    |
-| `<<=`             | SHL_ASSIGN    |
-| `&=`              | BAN_ASSIGN    |
-| `\|=`             | BOR_ASSIGN    |
-| `~=`              | BNT_ASSIGN    |
-| `^=`              | BXO_ASSIGN    |
-| `++`              | INC_ASSIGN    |
-| `--`              | DEC_ASSIGN    |
-| `(`               | '('           |
-| `)`               | ')'           |
-| `[`               | '['           |
-| `]`               | ']'           |
-| `{`               | '{'           |
-| `}`               | '}'           |
-| `:`               | ':'           |
-| `;`               | ';'           |
-| `,`               | ','           |
-| `cout`            | COUT          |
-| `auto`            | AUTO_T        |
-| `void`            | VOID_T        |
-| `char`            | CHAR_T        |
-| `int`             | INT_T         |
-| `long`            | LONG_T        |
-| `float`           | FLOAT_T       |
-| `double`          | DOUBLE_T      |
-| `bool`            | BOOL_T        |
-| `string`          | STR_T         |
-| `if`              | IF            |
-| `else`            | ELSE          |
-| `for`             | FOR           |
-| `while`           | WHILE         |
-| `return`          | RETURN        |
-| `break`           | BREAK         |
-| `true`            | BOOL_LIT      |
-| `false`           | BOOL_LIT      |
-| {Integer number}  | INT_LIT       |
-| {Float number}    | FLOAT_LIT     |
-| {Identifier}      | IDENT         |
-| {multiline comment}   | MULTI_COMMENT |
-| {singleline comment}  | COMMENT       |
-| {string}          | STRING_LIT    |
-| {character}       | CHAR_LIT      |
+```shell
+./judge.sh --diff
+```
+
+- Run a specific testcase or subtask
+
+```shell
+./judge.sh --case=subtask/testcase
+```
+
+```shell
+./judge.sh --case=subtask
+```
 
 ## Example of Your Scanner Output
 
@@ -156,3 +99,74 @@ STRING_LIT       "Hello World!"
 
 Total line: 13
 ```
+
+## Token Table
+
+| Symbol            | Token         |
+| ----------------- | ------------- |
+| `>>`              | SHR           |
+| `<<`              | SHL           |
+| `&`               | BAN           |
+| `\|`              | BOR           |
+| `~`               | BNT           |
+| `^`               | BXO           |
+| `+`               | ADD           |
+| `-`               | SUB           |
+| `*`               | MUL           |
+| `/`               | DIV           |
+| `%`               | MOD           |
+| `!`               | NOT           |
+| `>`               | LES           |
+| `<`               | GTR           |
+| `>=`              | GEQ           |
+| `<=`              | LEQ           |
+| `==`              | EQL           |
+| `!=`              | NEQ           |
+| `&&`              | LAN           |
+| `\|\|`            | LOR           |
+| `=`               | VAL_ASSIGN    |
+| `+=`              | ADD_ASSIGN    |
+| `-=`              | SUB_ASSIGN    |
+| `*=`              | MUL_ASSIGN    |
+| `/=`              | DIV_ASSIGN    |
+| `%=`              | REM_ASSIGN    |
+| `>>=`             | SHR_ASSIGN    |
+| `<<=`             | SHL_ASSIGN    |
+| `&=`              | BAN_ASSIGN    |
+| `\|=`             | BOR_ASSIGN    |
+| `++`              | INC_ASSIGN    |
+| `--`              | DEC_ASSIGN    |
+| `(`               | '('           |
+| `)`               | ')'           |
+| `[`               | '['           |
+| `]`               | ']'           |
+| `{`               | '{'           |
+| `}`               | '}'           |
+| `:`               | ':'           |
+| `;`               | ';'           |
+| `,`               | ','           |
+| `cout`            | COUT          |
+| `auto`            | AUTO_T        |
+| `void`            | VOID_T        |
+| `char`            | CHAR_T        |
+| `int`             | INT_T         |
+| `long`            | LONG_T        |
+| `float`           | FLOAT_T       |
+| `double`          | DOUBLE_T      |
+| `bool`            | BOOL_T        |
+| `string`          | STR_T         |
+| `if`              | IF            |
+| `else`            | ELSE          |
+| `for`             | FOR           |
+| `while`           | WHILE         |
+| `return`          | RETURN        |
+| `break`           | BREAK         |
+| `true`            | BOOL_LIT      |
+| `false`           | BOOL_LIT      |
+| {Integer number}  | INT_LIT       |
+| {Float number}    | FLOAT_LIT     |
+| {Identifier}      | IDENT         |
+| {multiline comment}   | MULTI_COMMENT |
+| {singleline comment}  | COMMENT       |
+| {string}          | STRING_LIT    |
+| {character}       | CHAR_LIT      |

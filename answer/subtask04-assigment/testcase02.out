@@ -20,11 +20,16 @@ IDENT    	 e
 ';'
 IDENT    	 a
 VAL_ASSIGN
-INT_LIT  	 12
+BNT
+INT_LIT  	 243
+BAN
+INT_LIT  	 15
 ';'
 IDENT    	 b
 VAL_ASSIGN
 IDENT    	 a
+SHR
+INT_LIT  	 1
 ';'
 IDENT    	 c
 VAL_ASSIGN
@@ -33,6 +38,8 @@ IDENT    	 a
 IDENT    	 d
 VAL_ASSIGN
 IDENT    	 b
+BOR
+INT_LIT  	 9
 ';'
 IDENT    	 e
 VAL_ASSIGN
@@ -75,6 +82,8 @@ IDENT    	 endl
 IDENT    	 e
 VAL_ASSIGN
 INT_LIT  	 100
+BXO
+INT_LIT  	 255
 ';'
 IDENT    	 e
 SHL_ASSIGN

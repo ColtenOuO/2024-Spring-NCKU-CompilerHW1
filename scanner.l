@@ -11,11 +11,6 @@
 letter [a-zA-Z_]
 digit [0-9]
 
-%option yylineno
-%x CMT_CON
-%x DSTR_CON
-%x STR_CON
-
 /* Rules section */
 %%
 

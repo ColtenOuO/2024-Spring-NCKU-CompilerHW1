@@ -13,6 +13,10 @@ int main(string argv[]) {
     cout << ( x) << endl;
     x %= 6;
     cout << ( x) << endl;
+    x |= 4092;
+    cout << ( x) << endl;
+    x &= 255;
+    cout << ( x) << endl;
 
     float yy = 3.14;
     cout << ( yy ) << endl;
