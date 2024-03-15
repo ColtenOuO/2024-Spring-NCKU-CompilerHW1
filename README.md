@@ -22,7 +22,7 @@ make build
 ## Build And Run Your Scanner
 
 ```shell
-make all < ../input/subtask00-helloworld/testcase01.cpp
+make all < input/subtask01-helloworld/testcase01.cpp
 ```
 
 ## Judge Your Scanner
