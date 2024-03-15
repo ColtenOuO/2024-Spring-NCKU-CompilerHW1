@@ -24,7 +24,7 @@ VAL_ASSIGN
 INT_LIT  	 0
 ';'
 IDENT    	 i
-GTR
+LES
 INT_LIT  	 3
 ';'
 IDENT    	 i
@@ -39,7 +39,7 @@ VAL_ASSIGN
 INT_LIT  	 0
 ';'
 IDENT    	 j
-GTR
+LES
 INT_LIT  	 3
 ';'
 IDENT    	 j
@@ -89,7 +89,7 @@ VAL_ASSIGN
 INT_LIT  	 0
 ';'
 IDENT    	 j
-GTR
+LES
 INT_LIT  	 3
 ';'
 IDENT    	 j

@@ -15,7 +15,7 @@ INT_LIT  	 0
 WHILE
 '('
 IDENT    	 counter
-GTR
+LES
 INT_LIT  	 100000
 ')'
 '{'

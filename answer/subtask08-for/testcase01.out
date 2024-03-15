@@ -20,7 +20,7 @@ VAL_ASSIGN
 INT_LIT  	 0
 ';'
 IDENT    	 i
-GTR
+LES
 IDENT    	 c
 ';'
 IDENT    	 i

@@ -11,7 +11,7 @@ IDENT    	 mod
 IF
 '('
 IDENT    	 num
-GTR
+LES
 INT_LIT  	 0
 ')'
 RETURN
@@ -144,7 +144,7 @@ VAL_ASSIGN
 INT_LIT  	 0
 ';'
 IDENT    	 i
-GTR
+LES
 INT_LIT  	 10
 ';'
 IDENT    	 i
@@ -186,7 +186,7 @@ VAL_ASSIGN
 INT_LIT  	 0
 ';'
 IDENT    	 i
-GTR
+LES
 INT_LIT  	 20
 ';'
 IDENT    	 i
@@ -207,7 +207,7 @@ INT_LIT  	 2
 WHILE
 '('
 IDENT    	 q
-LES
+GTR
 INT_LIT  	 0
 ')'
 '{'
