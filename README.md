@@ -27,6 +27,8 @@ make all < ../input/subtask00-helloworld/testcase01.cpp
 
 ## Judge Your Scanner
 
+If permission denied, add prmission `chmod +x ./judge.sh`
+
 ```shell
 ./judge.sh
 ```
